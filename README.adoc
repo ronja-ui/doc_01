@@ -1,12 +1,21 @@
-# doc_01
+image::https://avatars.githubusercontent.com/u/71876378?s=200&v=4[Teragrep Logo]
+
+= doc_01 – Documentation for Teragrep
 
 The official documentation for Teragrep, accessed on https://docs.teragrep.com[docs.teragrep.com].
 
-## Features
+This repository primarily serves as an issue collector. Currently, the only way to contribute to Teragrep's documentation is to https://github.com/teragrep/doc_01/issues/new/choose[open a new issue] when you notice gaps in the documentation.  
 
-TBA 
+== Features
 
-## Contributing
+Our documentation website currently offers documentation for:
+
+* Data Processing Language (DPL) commands
+* How to use Teragrep user interface
+
+The documentation website is generated with https://github.com/asciidoctor[Asciidoctor] and https://antora.org/[Antora].
+
+== Contributing
 
 You can involve yourself with our project by https://github.com/teragrep/doc_01/issues/new/choose[opening an issue] or submitting a pull request. 
 
@@ -19,7 +28,7 @@ Contribution requirements:
 
 Read more in our https://github.com/teragrep/teragrep/blob/main/contributing.adoc[Contributing Guideline].
 
-### Contributor License Agreement
+=== Contributor License Agreement
 
 Contributors must sign https://github.com/teragrep/teragrep/blob/main/cla.adoc[Teragrep Contributor License Agreement] before a pull request is accepted to organization's repositories. 
 
