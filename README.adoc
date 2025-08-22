@@ -6,7 +6,7 @@ The official documentation for Teragrep, accessed on https://docs.teragrep.com[d
 
 == Features
 
-The documentation website is generated with https://github.com/asciidoctor[Asciidoctor] and https://antora.org/[Antora].
+The documentation website is generated with https://github.com/asciidoctor[Asciidoctor] and https://antora.org/[Antora]. The website's layout is based on https://gitlab.com/antora/antora-ui-default[Antora Default UI] which is licensed under https://www.mozilla.org/en-US/MPL/2.0/[the MPL-2.0 license].
 
 Covered or planned topics: 
 
@@ -22,7 +22,9 @@ NOTE: To be announced
 
 == How to Edit
 
-Read https://docs.asciidoctor.org/asciidoc/latest/[Asciidoctor's documentation] about how to use AsciiDoc syntax correctly. 
+You need at least a code editor (e.g. Visual Studio Code or WebStorm) for editing the documentation content. https://plugins.jetbrains.com/plugin/7391-asciidoc[The AsciiDoc plugin] is recommended but not mandatory.
+
+The documentation is written with AsciiDoc language which resembles Markdown. Read https://docs.asciidoctor.org/asciidoc/latest/[Asciidoctor's documentation] about how to use AsciiDoc syntax correctly. 
 
 The documentation content is located in `/src/docs` directory. 
 
@@ -41,6 +43,8 @@ The documentation content is located in `/src/docs` directory.
 |`/src/docs/.../modules/ROOT/pages`
 |Directory for documentation pages. Read more about https://docs.antora.org/antora/latest/page/standard-page/[how to set up a standard page].
 |===
+
+The left side navbar is manually maintained by updating the `nav.adoc` file. Read more about https://docs.antora.org/antora/latest/navigation/files-and-lists/[how to update link lists in the navigation file].
 
 == How to Deploy
 
