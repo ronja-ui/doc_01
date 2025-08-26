@@ -16,7 +16,7 @@ Covered or planned topics:
 
 Technical documentation for Teragrep components can be found in their corresponding repository on GitHub. View the full list of Teragrep components in https://github.com/teragrep/teragrep[Teragrep portal repository].
 
-== How to Install
+== How to Get Started
 
 NOTE: To be announced
 
